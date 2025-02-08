@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.game-container {
+
+    max-width: 400px;
+    padding: 20px;
+    background-color: #2b2b2b;
+    justify-content: center;
+    right: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.legend-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #2b2b2b;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    text-align: left;
+}
+
+.legend h3 {
+    margin-top: 0;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.green-box {
+    background-color: #228B22;
+}
+
+.orange-box {
+    background-color: #FFA500;
+}
+
+.red-box {
+    background-color: #8B0000;
+}
+
+.word-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.letter-box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 1.5em;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #cc5200;
+}
+
+#chancesLeft {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #ffcc00;
+}
+
+#celebration {
+
+    font-size: 2em;
+    margin-top: 20px;
+    color: #177f17;
+
+}
+.hidden {
+    display: none;
+}
